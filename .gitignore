@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# 本地运行数据库与数据卷挂载目录
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# 引导依赖目录（如使用 /tmp/pylibs 不在仓库内，这里仅兜底）
+.pylibs/
